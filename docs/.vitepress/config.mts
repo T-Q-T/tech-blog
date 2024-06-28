@@ -91,7 +91,7 @@ export default defineConfig({
         {
           text: "TypeScript",
           collapsed: true,
-          link: "/knowledge/typescript/",
+          link: "/knowledge/typescript",
           items: [],
         },
         {
