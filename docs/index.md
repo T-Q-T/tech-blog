@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "QT blog"
-  text: "个人博客，知识库"
+  text: "愚者的图书馆"
   tagline: 叶长千年茂，根扎大地深
   actions:
     - theme: brand
