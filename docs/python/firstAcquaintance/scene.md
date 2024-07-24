@@ -1,6 +1,6 @@
 # Python 场景
 
-**系统编程** :提供 API（ApplicationProgrammingInterface 应用程序编程接口），能方便进行系统维护和管理，Linux 下标志性语言之一，是很多系统管理员理想的编程工具。
+**系统编程**:提供 API（ApplicationProgrammingInterface 应用程序编程接口），能方便进行系统维护和管理，Linux 下标志性语言之一，是很多系统管理员理想的编程工具。
 
 **图形处理**:有 PIL、Tkinter 等图形库支持，能方便进行图形处理。
 
@@ -14,7 +14,7 @@
 
 **Web 编程**:应用的开发语言，支持最新的 XML 技术。
 
-多媒体应用：Python 的 PyOpenGL 模块封装了“OpenGL 应用程序编程接口”，能进行二维和三维图像处理。PyGame 模块可用于编写游戏软件。
+**多媒体应用**：Python 的 PyOpenGL 模块封装了“OpenGL 应用程序编程接口”，能进行二维和三维图像处理。PyGame 模块可用于编写游戏软件。
 
 **pymo 引擎**:PYMO 全称为 pythonmemoriesoff，是一款运行于 SymbianS60V3，Symbian3，S60V5，Symbian3，Android 系统上的 AVG 游戏引擎。因其基于 python2.0 平台开发，并且适用于创建秋之回忆（memoriesoff）风格的 AVG 游戏，故命名为 PYMO。
 
