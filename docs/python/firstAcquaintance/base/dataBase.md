@@ -74,8 +74,15 @@ test=[1,2,3,4,5]
 test[0:2]=["a","b","c"]
 print(test)
 // ['a', 'b', 'c', 3, 4, 5]
-
+ 
 ```
+3、常用 API 
+**append** 向列表末尾添加元素
+**remove** 删除列表指定值
+**pop** 删除列表指定索引值
+**clear** 清空列表
+**del** 删除列表指定索引值 (可输入切片删除片段)
+
 
 # 列表推导式
 
@@ -89,6 +96,12 @@ for x in range(10):
 ```
 
 <br>
+
+
+# 元组和序列
+
+元组
+
 
 # 参考
  https://docs.python.org/zh-cn/3/tutorial/introduction.html
