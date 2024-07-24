@@ -19,6 +19,8 @@ export default defineConfig({
     ],
 
     sidebar: {
+      "": [],
+
       "/knowledge/": [
         {
           text: "JavaScript",
@@ -158,6 +160,27 @@ export default defineConfig({
           ],
         },
       ],
+      "/python/firstAcquaintance": [
+        {
+          text: "初识 Python",
+          items: [
+            { text: "语言背景及处理场景", link: "/python/firstAcquaintance/background" },
+            { text: "应用场景", link: "/python/firstAcquaintance/scene" },
+          ],
+        }, {
+          text: "语言基础",
+          items: [
+            {
+              text: "基本数据类型与操作",
+              link: "/python/firstAcquaintance/base/dataBase"
+            },
+            {
+              text: "语句",
+              link: "/python/firstAcquaintance/base/statement"
+            }
+          ]
+        }
+      ]
     },
   },
   head: [
