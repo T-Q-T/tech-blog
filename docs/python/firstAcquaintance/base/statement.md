@@ -65,7 +65,8 @@ match a:
 
 # 函数
 
-使用 def 定义，基本格式为 def 函数名(参数):,缩进体代表执行内容,值得注意的是，函数的形参初始值会共享数据
+使用 def 定义，基本格式为 def 函数名(参数):,缩进体代表执行内容,值得注意的是，函数的形参初始值会共享数据，每个函数拥有自己的作用域
+函数内使用全局变量时需要加 global 声明
 
 ```
 def f(a,L=[]):
@@ -111,4 +112,63 @@ def test(v,s,a):
 d={v:"value",s:"status",a:"action"}
 test(**d)
 // value status action
+```
+
+
+# 循环内置函数 
+
+items()  用于提取字典的键和值
+
+```
+knights = {'gallahad': 'the pure', 'robin': 'the brave'}
+for k, v in knights.items():
+    print(k, v,end=',')
+//gallahad the pure,robin the brave
+```
+
+**enumerate()** 用于提取列表的索引与值
+```
+for i, v in enumerate(['tic', 'tac', 'toe']):
+    print(i, v,end=',')
+//0 tic,1 tac,2 toe
+```
+
+zip() 用于同时循环多个序列
+
+```
+questions = ['name', 'quest', 'favorite color']
+answers = ['lancelot', 'the holy grail', 'blue']
+test=[1,2,3]
+for q, a ,t in zip(questions, answers,test):
+    print(q,a,t,end=",") 
+
+// name lancelot 1,quest the holy grail 2,favorite color blue 3
+```
+
+
+reversed() 逆向循环序列
+
+```
+for i in reversed(range(1, 10, 2)):
+    print(i,end=',')
+// 9,7,5,3,1
+```
+
+
+sorted() 按首字母顺序(同首字母则会按长度排列）或数字升序排列返回一个新列表 （不可符合比较，如列表既包含了字符串又包含了数字）
+
+```
+test=['fa','f','as','t']
+print(sorted(test))
+//['as', 'f', 'fa', 't']
+```
+
+set() 去重,将列表转化为字典去重
+
+```
+a=['fa','f','as','t','t','t']
+b=set(a)
+c=sorted(set(b))
+print(a,b,c)
+//['fa', 'f', 'as', 't', 't', 't'] {'fa', 'f', 'as', 't'} ['as', 'f', 'fa', 't']
 ```
