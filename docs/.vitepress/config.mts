@@ -177,6 +177,10 @@ export default defineConfig({
             {
               text: "语句",
               link: "/python/firstAcquaintance/base/statement"
+            },
+            {
+              text: "模块",
+              link: "/python/firstAcquaintance/base/module"
             }
           ]
         }
