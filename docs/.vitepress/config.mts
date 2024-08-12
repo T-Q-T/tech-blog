@@ -184,7 +184,13 @@ export default defineConfig({
             }
           ]
         }
-      ]
+      ],
+      "/database/mysql":[{
+        text: "mySql",
+        items: [
+          { text: "快速入门 mySql", link: "/database/mysql/index" },
+        ],
+      },]
     },
   },
   head: [

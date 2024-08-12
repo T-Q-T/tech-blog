@@ -134,7 +134,61 @@ t=set("abccccc")
 
 # 字典
 
-字典以键进行索引，键可以是任何不可变类型
+字典以键进行索引，键可以是任何不可变类型,类似于 js
+
+
+# 类
+
+**基本概念**
+1、以 class ClassName: 进行定义，整体类似于 js 的 class ,类中有一个 __init__ 的特殊方法，类似于 js 的 constructor() <br>
+即类初始化会时执行一次；实例不需要像 js 一样通过 new 的方式创建；直接 MyClass() 创建即可。<br>
+2、__init__ 参数中 self 即为创建实例本身，类似于 js 类的 this，其他参数为初始化类参数。<br>
+3、class 的所有方法中的入参中 self 都会指向实例本身。<br>
+4、实例之间的 mutable 类型数据会共享（列表，字典），不希望数据共享则应在初始化时绑定到 self 上。<br>
+```
+class Dog:
+
+    tricks = []             # mistaken use of a class variable
+
+    def __init__(self, name):
+        self.name = name
+。
+    def add_trick(self, trick):
+        self.tricks.append(trick)
+
+ d = Dog('Fido')
+ e = Dog('Buddy')
+ d.add_trick('roll over')
+ e.add_trick('play dead')
+ d.tricks                # unexpectedly shared by all dogs
+['roll over', 'play dead']
+
+**继承**
+1、以 class DerivedClassName(Base1, Base2, Base3): 进行定义,其中 Base1,Base2,Base3 都是各个基类。<br>
+2、可用 isinstance(a,b) 判断两个类是否为继承关系。 
+
+
+**类迭代器/生成器**
+Python 大多数容器类型数据结构都可以使用 for 循环，与 js 十分相似，底层原理其实是容器类实现了两个接口 __next__(self) 与 __iter__(self)<br>
+__iter__(self) 方法用于返回一个带 __next__() 方法的对象，__next__() 方法用于控制迭代行为 <br>
+next 行为可通过   raise StopIteration 进行停止 
+
+```
+class Reverse:
+    """Iterator for looping over a sequence backwards."""
+    def __init__(self, data):
+        self.data = data
+        self.index = len(data)
+
+    def __iter__(self):
+        return self
+
+    def __next__(self):
+        if self.index == 0:
+            raise StopIteration
+        self.index = self.index - 1
+        return self.data[self.index]
+```
 
 # 参考
  https://docs.python.org/zh-cn/3/tutorial/introduction.html

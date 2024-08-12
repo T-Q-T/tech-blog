@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "QT blog"
-  text: "愚者的图书馆"
+  text: "技术图书馆"
   actions:
     - theme: brand
       text: 知识库
@@ -12,6 +12,9 @@ hero:
     - theme: brand
       text: python 学习
       link: /python/firstAcquaintance/background
+    - theme: brand
+      text: 数据库学习
+      link: /database/mysql/index
     # - theme: alt
     #   text: 文集
     #   link: /article/
