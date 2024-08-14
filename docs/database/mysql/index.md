@@ -149,7 +149,7 @@ UPDATE test_table SET atk=99999,df=999999 WHERE id=1001
 
 <br>
 
-# 删
+## 删
 
 **语句为 DELETE FROM <表名> WHERE <条件>**
 
