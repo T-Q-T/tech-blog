@@ -11,10 +11,13 @@ hero:
       link: /knowledge/javascript/newKnowledge
     - theme: brand
       text: python 学习
-      link: /python/firstAcquaintance/background
+      link: /python/background
     - theme: brand
       text: 数据库学习
       link: /database/mysql/index
+    - theme: brand
+      text: 从零开始的 AI 之旅
+      link: /ai
     # - theme: alt
     #   text: 文集
     #   link: /article/

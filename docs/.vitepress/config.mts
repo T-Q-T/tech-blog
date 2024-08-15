@@ -160,27 +160,36 @@ export default defineConfig({
           ],
         },
       ],
-      "/python/firstAcquaintance": [
+      "/python": [
         {
           text: "初识 Python",
           items: [
-            { text: "语言背景及处理场景", link: "/python/firstAcquaintance/background" },
-            { text: "应用场景", link: "/python/firstAcquaintance/scene" },
+            { text: "语言背景及处理场景", link: "/python/background" },
+            { text: "应用场景", link: "/python/scene" },
           ],
         }, {
           text: "语言基础",
           items: [
             {
               text: "基本数据类型与操作",
-              link: "/python/firstAcquaintance/base/dataBase"
+              link: "/python/content/base/dataBase"
             },
             {
               text: "语句",
-              link: "/python/firstAcquaintance/base/statement"
-            },
+              link: "/python/content/base/statement"
+            }
+          ]
+        },
+        {
+          text: "进阶",
+          items: [
             {
               text: "模块",
-              link: "/python/firstAcquaintance/base/module"
+              link: "/python/content/pro/module"
+            },
+            {
+              text:"深浅拷贝",
+              link: "/python/content/pro/copy"
             }
           ]
         }
@@ -190,7 +199,13 @@ export default defineConfig({
         items: [
           { text: "快速入门 mySql", link: "/database/mysql/index" },
         ],
-      },]
+      }],
+      "/ai":[{
+        text: "AI",
+        items: [
+          { text: "序", link: "/ai/index" },
+        ],
+      }]
     },
   },
   head: [
