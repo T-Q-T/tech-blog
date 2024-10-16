@@ -5,5 +5,5 @@ AI 使用也快一年了，时不时便会感叹其强大，于是开坑从零�
 <br>
 
 
-学习路线大致遵从 https://github.com/apachecn/ai-roadmap/blob/master/ai-union-201904/README.md ，幸运的是数学和线代都不错，技能树底子存在。
+学习路线大致遵从 https://github.com/apachecn/ai-roadmap/blob/master/ai-union-201904/README.md ，幸运的是数学和线代都不错，有技能树底子存在。
 

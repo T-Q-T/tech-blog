@@ -190,6 +190,10 @@ export default defineConfig({
             {
               text:"深浅拷贝",
               link: "/python/content/pro/copy"
+            },
+            {
+              text:"线程",
+              link: "/python/content/pro/thread"
             }
           ]
         }
@@ -204,6 +208,7 @@ export default defineConfig({
         text: "AI",
         items: [
           { text: "序", link: "/ai/index" },
+          { text: "机器学习", link: "/ml/index" },
         ],
       }]
     },
