@@ -16,8 +16,11 @@ hero:
       text: 数据库学习
       link: /database/mysql/index
     - theme: brand
-      text: 从零开始的 AI 之旅
+      text:  AI
       link: /ai
+    - theme: brand
+      text: 爬虫相关知识
+      link: /crawler
     # - theme: alt
     #   text: 文集
     #   link: /article/
