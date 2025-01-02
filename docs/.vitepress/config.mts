@@ -210,6 +210,12 @@ export default defineConfig({
           { text: "序", link: "/ai/index" },
           { text: "机器学习", link: "/ml/index" },
         ],
+      }],
+      "/crawler":[{
+        text: "爬虫相关知识",
+        items: [
+          { text: "爬虫相关知识", link: "/crawler/index" },
+        ],
       }]
     },
   },
