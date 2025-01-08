@@ -1,4 +1,4 @@
-# Vue 双向绑定实现原理
+## Vue 双向绑定实现原理
 
 **Vue2 主要借助了 Object.defineProperty 这个 API 。**<br>
 
@@ -162,7 +162,7 @@ input.addEventListener('input', e => {
 
 
 
-# Vue SPA 路由实现原理
+## Vue SPA 路由实现原理
 
 首先解释一下 SPA 和 MPA <br>
 
@@ -183,7 +183,7 @@ SPA(单页应用): <br>
 ![alt text](image-2.png)
 
 
-## history 模式
+ **history 模式**
 
 主要借助了 window.history.pushState 这个 API 。此 API 具有特性-**只改变地址栏上的 url 而不会进行实际跳转**,同时贮存路径到跳转历史中 <br>
 
