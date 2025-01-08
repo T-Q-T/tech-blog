@@ -105,19 +105,19 @@ export default defineConfig({
         {
           text: "Vue",
           collapsed: true,
-          link: "/knowledge/vue/",
+          link: "/knowledge/vue/index",
           items: [],
         },
         {
           text: "React",
           collapsed: true,
-          link: "/knowledge/react/",
+          link: "/knowledge/react/index",
           items: [],
         },
         {
           text: "Angular",
           collapsed: true,
-          link: "/knowledge/angular/",
+          link: "/knowledge/angular/index",
           items: [],
         },
         {
