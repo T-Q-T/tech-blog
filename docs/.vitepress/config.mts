@@ -208,7 +208,7 @@ export default defineConfig({
         text: "AI",
         items: [
           { text: "序", link: "/ai/index" },
-          { text: "机器学习", link: "/ml/index" },
+          { text: "机器学习", link: "/ai/ml/index" },
         ],
       }],
       "/crawler":[{
