@@ -37,9 +37,9 @@ Google 具有 200 多个排名因素，其中最重要的几个因素为
 
 
 
-**sitemap**
+# sitemap
 简单来说，就是一份你网站的地图。假如你建立了一个网站，如何才能让搜索引擎知道你网站内容及内部的链接指引呢？答案是提供一份网站地图给搜索引擎，Google 需要你在站点根目录下添加一个 sitemap.xml 或者 sitemap_index.xml 命名的 xml 文件，此 xml 文件包含着站点内部所有路由导航等，可使用[Screaming Frog](https://www.screamingfrog.co.uk/seo-spider/) 进行制作，其会自动模拟搜索引擎爬取你的页面并制作出 xml 文件。<br>
-最后登陆 [谷歌站长工具](https://search.google.com/search-console/welcome?hl=zh-CN) ，找到 Sitemaps -> Add a new sitemap ，填入放在服务器上的 sitemap.xml 路径即可。
+最后登陆 [谷歌站长工具](https://search.google.com/search-console/welcome?hl=zh-CN) ，找到 Sitemaps -> Add a new sitemap ，填入放在服务器上的 sitemap.xml 路径即可。<br>
 
 ![alt text](image.png)
 
