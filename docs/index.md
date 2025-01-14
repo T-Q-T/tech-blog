@@ -21,7 +21,7 @@ hero:
     - theme: brand
       text: 爬虫相关知识
       link: /crawler
-    - theme: SEO google
+    - theme: brand
       text: SEO google
       link: /seo
     # - theme: alt
