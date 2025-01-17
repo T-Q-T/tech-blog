@@ -22,7 +22,7 @@ hero:
       text: 爬虫相关知识
       link: /crawler
     - theme: brand
-      text: SEO google
+      text: SEO 与需求发掘
       link: /seo
     # - theme: alt
     #   text: 文集
