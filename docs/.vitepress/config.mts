@@ -12,7 +12,7 @@ export default defineConfig({
       provider: "local",
     },
     nav: [
-      { text: "知识库", link: "/knowledge/javascript/newKnowledge" },
+      { text: "前端知识库", link: "/knowledge/javascript/newKnowledge" },
       // { text: "文集", link: "/article/" },
       // { text: "小游戏", link: "/games/" },
       // { text: "工具集", link: "/tools/" },
