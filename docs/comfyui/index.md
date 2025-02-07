@@ -35,7 +35,7 @@ KSampler: K 采样器，工作流的最核心部分，把 CheckPoint 加载的�
 
 ## 好用的平台
 
-[哩布哩布](https://www.liblib.art/comfy?opencomfy=workflowData-18935273&comfyname=%E3%80%90AI%E6%BB%A4%E9%95%9C%E3%80%91%E4%B8%87%E7%89%A9%E7%9A%86%E5%8F%AF%E7%BE%8A%E6%AF%9B%E6%AF%A1v1&comfyOrid=7e244b4875b444e7af7fd807cf28ae1b)-有在线 ComfyUI 生成以及工作流下载等功能，可在线生图，功能很强大，在 ComfyUI 工作流这块更像是一个社区
+[哩布哩布](https://www.liblib.art/comfy?opencomfy=workflowData-18935273&comfyname=%E3%80%90AI%E6%BB%A4%E9%95%9C%E3%80%91%E4%B8%87%E7%89%A9%E7%9A%86%E5%8F%AF%E7%BE%8A%E6%AF%9B%E6%AF%A1v1&comfyOrid=7e244b4875b444e7af7fd807cf28ae1b)-有在线 ComfyUI 生成以及工作流下载等功能，可在线生图，功能很强大，在 ComfyUI 工作流这块更像是一个社区。
 
 
 [fal.ai](https://fal.ai/)-一个云算力租借平台，支持导入 ComfyUI 工作流，可将你的工作流托管到平台之上，可自定义节点等，按使用次数计费，此类平台是目前商用出图的低成本选择。
