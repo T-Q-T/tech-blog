@@ -63,45 +63,45 @@ export default defineConfig({
           collapsed: false,
           items: algorithmSidebarConfig,
         },
-        {
-          text: "Book",
-          collapsed: true,
-          items: bookSideBarConfig,
-        },
-        {
-          text: "计算机网络",
-          collapsed: true,
-          link: "/knowledge/network/",
-          items: [
-            { text: "HTTP", link: "/knowledge/network/http" },
-            { text: "WebSocket", link: "/knowledge/network/websocket" },
-            { text: "TCP/UDP", link: "/knowledge/network/tcp" },
-            { text: "RPC", link: "/knowledge/network/rpc" },
-            { text: "DNS", link: "/knowledge/network/dns" },
-            { text: "跨域", link: "/knowledge/network/cors" },
-          ],
-        },
-        {
-          text: "前端安全",
-          collapsed: true,
-          link: "/knowledge/security/",
-          items: [
-            { text: "csrf", link: "/knowledge/security/csrf" },
-            { text: "xss", link: "/knowledge/security/xss" }
-          ],
-        },
-        {
-          text: "TypeScript",
-          collapsed: true,
-          link: "/knowledge/typescript/",
-          items: [],
-        },
-        {
-          text: "NodeJS",
-          collapsed: true,
-          link: "/knowledge/nodejs/",
-          items: [],
-        },
+        // {
+        //   text: "Book",
+        //   collapsed: true,
+        //   items: bookSideBarConfig,
+        // },
+        // {
+        //   text: "计算机网络",
+        //   collapsed: true,
+        //   link: "/knowledge/network/",
+        //   items: [
+        //     { text: "HTTP", link: "/knowledge/network/http" },
+        //     { text: "WebSocket", link: "/knowledge/network/websocket" },
+        //     { text: "TCP/UDP", link: "/knowledge/network/tcp" },
+        //     { text: "RPC", link: "/knowledge/network/rpc" },
+        //     { text: "DNS", link: "/knowledge/network/dns" },
+        //     { text: "跨域", link: "/knowledge/network/cors" },
+        //   ],
+        // },
+        // {
+        //   text: "前端安全",
+        //   collapsed: true,
+        //   link: "/knowledge/security/",
+        //   items: [
+        //     { text: "csrf", link: "/knowledge/security/csrf" },
+        //     { text: "xss", link: "/knowledge/security/xss" }
+        //   ],
+        // },
+        // {
+        //   text: "TypeScript",
+        //   collapsed: true,
+        //   link: "/knowledge/typescript/",
+        //   items: [],
+        // },
+        // {
+        //   text: "NodeJS",
+        //   collapsed: true,
+        //   link: "/knowledge/nodejs/",
+        //   items: [],
+        // },
         {
           text: "Vue",
           collapsed: true,
@@ -120,19 +120,19 @@ export default defineConfig({
           link: "/knowledge/angular/index",
           items: [],
         },
-        {
-          text: "RxJS",
-          collapsed: true,
-          link: "/knowledge/rxjs/",
-          items: [],
-        },
-        {
-          text: "工作流",
-          collapsed: true,
-          items: [
-            { text: "git", link: "/knowledge/workflow/git" },
-          ],
-        },
+        // {
+        //   text: "RxJS",
+        //   collapsed: true,
+        //   link: "/knowledge/rxjs/",
+        //   items: [],
+        // },
+        // {
+        //   text: "工作流",
+        //   collapsed: true,
+        //   items: [
+        //     { text: "git", link: "/knowledge/workflow/git" },
+        //   ],
+        // },
         {
           text: "杂记",
           collapsed: false,
