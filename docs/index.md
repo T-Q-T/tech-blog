@@ -23,7 +23,11 @@ hero:
       link: /crawler
     - theme: brand
       text: SEO 与需求发掘
-      link: /seo
+      link: /seo/index
+    - theme: brand
+      text: ComfyUI - AI 生图
+      link: /comfyui/index
+    
     # - theme: alt
     #   text: 文集
     #   link: /article/
